@@ -1,0 +1,152 @@
+ @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix market: <https://auroral.iot.linkeddata.es/def/market#> .
+@base <https://auroral.iot.linkeddata.es/def/market#> .
+
+<https://auroral.iot.linkeddata.es/def/market#> rdf:type owl:Ontology ;
+			dc:creator "Ahlem Rhayem
+dc" ;
+			dc:description "Ontology code created by Chowlk" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+### market:sell
+market:sell rdf:type owl:ObjectProperty ;
+		rdfs:domain market:Seller ;
+		rdfs:range market:Product ;
+		rdfs:label "sell" .
+
+### market:buy
+market:buy rdf:type owl:ObjectProperty ;
+		rdfs:domain market:Customer ;
+		rdfs:range market:Product ;
+		rdfs:label "buy" .
+
+### market:hasCategory
+market:hasCategory rdf:type owl:ObjectProperty ;
+		rdfs:domain market:Product ;
+		rdfs:range market:Category ;
+		rdfs:label "has category" .
+
+### market:hasQuantity
+market:hasQuantity rdf:type owl:ObjectProperty ;
+		rdfs:domain market:Product ;
+		rdfs:range market:Stock ;
+		rdfs:label "has quantity" .
+
+#################################################################
+#    Data Properties
+#################################################################
+
+### market:hasID
+market:hasID rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Customer ;
+		rdfs:range xsd:string ;
+		rdfs:label "has i d" .
+
+### market:hasName
+market:hasName rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Customer ;
+		rdfs:range xsd:string ;
+		rdfs:label "has name" .
+
+### market:address
+market:address rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Customer ;
+		rdfs:range xsd:string ;
+		rdfs:label "address" .
+
+### market:stockID
+market:stockID rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Stock ;
+		rdfs:range xsd:string ;
+		rdfs:label "stock i d" .
+
+### market:stockQuantity
+market:stockQuantity rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Stock ;
+		rdfs:range xsd:string ;
+		rdfs:label "stock quantity" .
+
+### market:sellerID
+market:sellerID rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Seller ;
+		rdfs:range xsd:string ;
+		rdfs:label "seller i d" .
+
+### market:sellerName
+market:sellerName rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Seller ;
+		rdfs:range xsd:string ;
+		rdfs:label "seller name" .
+
+### market:productID
+market:productID rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Product ;
+		rdfs:range xsd:string ;
+		rdfs:label "product i d" .
+
+### market:productName
+market:productName rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Product ;
+		rdfs:range xsd:string ;
+		rdfs:label "product name" .
+
+### market:categoryID
+market:categoryID rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Category ;
+		rdfs:range xsd:string ;
+		rdfs:label "category i d" .
+
+### market:categoryName
+market:categoryName rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Category ;
+		rdfs:range xsd:string ;
+		rdfs:label "category name" .
+
+### market:categoryType
+market:categoryType rdf:type owl:DatatypeProperty ;
+		rdfs:domain market:Category ;
+		rdfs:range xsd:string ;
+		rdfs:label "category type" .
+
+#################################################################
+#    Classes
+#################################################################
+
+### market:Customer
+market:Customer rdf:type owl:Class ;
+	rdfs:label "Customer" .
+
+### market:Stock
+market:Stock rdf:type owl:Class ;
+	rdfs:label "Stock" .
+
+### market:Seller
+market:Seller rdf:type owl:Class ;
+	rdfs:label "Seller" .
+
+### market:Product
+market:Product rdf:type owl:Class ;
+	rdfs:label "Product" .
+
+### market:Category
+market:Category rdf:type owl:Class ;
+	rdfs:label "Category" .
+
+#################################################################
+#    Instances
+#################################################################
+
+#################################################################
+#    General Axioms
+#################################################################
+
