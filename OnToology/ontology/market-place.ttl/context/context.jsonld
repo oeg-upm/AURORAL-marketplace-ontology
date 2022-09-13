@@ -1,0 +1,92 @@
+{
+  "@context" : {
+    "categoryID" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasQuantity" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasQuantity",
+      "@type" : "@id"
+    },
+    "Category" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#Category"
+    },
+    "Product" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#Product"
+    },
+    "hasName" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasID" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Customer" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#Customer"
+    },
+    "sell" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#sell",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "categoryType" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Seller" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#Seller"
+    },
+    "productID" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#productID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Stock" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#Stock"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "buy" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#buy",
+      "@type" : "@id"
+    },
+    "stockID" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#stockID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sellerID" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#sellerID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "address" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "productName" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#productName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sellerName" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#sellerName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCategory" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasCategory",
+      "@type" : "@id"
+    },
+    "stockQuantity" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#stockQuantity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "categoryName" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    }
+  }
+}
