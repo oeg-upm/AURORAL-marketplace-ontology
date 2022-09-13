@@ -1,4 +1,4 @@
- @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -10,8 +10,7 @@
 @base <https://auroral.iot.linkeddata.es/def/market#> .
 
 <https://auroral.iot.linkeddata.es/def/market#> rdf:type owl:Ontology ;
-			dc:creator "Ahlem Rhayem
-dc" ;
+			dc:creator "Ahlem Rhayem" ;
 			dc:description "Ontology code created by Chowlk" .
 
 #################################################################
