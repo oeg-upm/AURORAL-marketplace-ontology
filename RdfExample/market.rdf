@@ -1,0 +1,21 @@
+@prefix ns1: < market:https://auroral.iot.linkeddata.es/def/market#> .
+
+ns1:Consumer1 a ns1:Consumer, 
+              ns1:hasId "3"^^xsd:string,
+              ns1:name "Juan"^^xsd:string,
+              ns1:buy ns1:Product1, 
+
+ns1:Product1 a ns1:Product, 
+             ns1:hasId "23467"^^xsd:string, 
+             ns1:hasName "Briquettes"^^xsd:string, 
+             ns1:hasQuantity ns1:Quantity1, 
+             ns1:hasCategory ns1:Category1, 
+
+ns1:Quantity1 a ns1:Stock, 
+              ns1:stockQuantity "156 kg"^^xsd:string, 
+              ns1:stockId "12"^^xsd:string, 
+
+ns1:Category1 a ns1:Category, 
+              ns1:categroyId "4"^^xsd:string, 
+              ns1:categoryName "Biomass"^^xsd:string, 
+              ns1:categoryTYpe "1"^^xsd:string
