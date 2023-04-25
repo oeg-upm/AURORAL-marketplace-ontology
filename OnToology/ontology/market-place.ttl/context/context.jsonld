@@ -1,7 +1,7 @@
 {
   "@context" : {
-    "categoryID" : {
-      "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryID",
+    "sellerId" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#sellerId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "hasQuantity" : {
@@ -16,10 +16,6 @@
     },
     "hasName" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#hasName",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "hasID" : {
-      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasID",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Customer" : {
@@ -39,8 +35,12 @@
     "Seller" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#Seller"
     },
-    "productID" : {
-      "@id" : "https://auroral.iot.linkeddata.es/def/market#productID",
+    "productId" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#productId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "stockId" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#stockId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Stock" : {
@@ -53,20 +53,16 @@
       "@id" : "https://auroral.iot.linkeddata.es/def/market#buy",
       "@type" : "@id"
     },
-    "stockID" : {
-      "@id" : "https://auroral.iot.linkeddata.es/def/market#stockID",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "sellerID" : {
-      "@id" : "https://auroral.iot.linkeddata.es/def/market#sellerID",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "address" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#address",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "productName" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#productName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasId" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#hasId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "sellerName" : {
@@ -87,6 +83,10 @@
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "categoryId" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     }
   }
 }

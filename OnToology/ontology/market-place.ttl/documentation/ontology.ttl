@@ -65,11 +65,11 @@
          rdfs:label "address" .
 
 
-###  https://auroral.iot.linkeddata.es/def/market#categoryID
-:categoryID rdf:type owl:DatatypeProperty ;
+###  https://auroral.iot.linkeddata.es/def/market#categoryId
+:categoryId rdf:type owl:DatatypeProperty ;
             rdfs:domain :Category ;
             rdfs:range xsd:string ;
-            rdfs:label "category i d" .
+            rdfs:label "category id" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#categoryName
@@ -86,11 +86,11 @@
               rdfs:label "category type" .
 
 
-###  https://auroral.iot.linkeddata.es/def/market#hasID
-:hasID rdf:type owl:DatatypeProperty ;
+###  https://auroral.iot.linkeddata.es/def/market#hasId
+:hasId rdf:type owl:DatatypeProperty ;
        rdfs:domain :Customer ;
        rdfs:range xsd:string ;
-       rdfs:label "has i d" .
+       rdfs:label "has id" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#hasName
@@ -100,11 +100,11 @@
          rdfs:label "has name" .
 
 
-###  https://auroral.iot.linkeddata.es/def/market#productID
-:productID rdf:type owl:DatatypeProperty ;
+###  https://auroral.iot.linkeddata.es/def/market#productId
+:productId rdf:type owl:DatatypeProperty ;
            rdfs:domain :Product ;
            rdfs:range xsd:string ;
-           rdfs:label "product i d" .
+           rdfs:label "product id" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#productName
@@ -114,11 +114,11 @@
              rdfs:label "product name" .
 
 
-###  https://auroral.iot.linkeddata.es/def/market#sellerID
-:sellerID rdf:type owl:DatatypeProperty ;
+###  https://auroral.iot.linkeddata.es/def/market#sellerId
+:sellerId rdf:type owl:DatatypeProperty ;
           rdfs:domain :Seller ;
           rdfs:range xsd:string ;
-          rdfs:label "seller i d" .
+          rdfs:label "seller id" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#sellerName
@@ -128,11 +128,11 @@
             rdfs:label "seller name" .
 
 
-###  https://auroral.iot.linkeddata.es/def/market#stockID
-:stockID rdf:type owl:DatatypeProperty ;
+###  https://auroral.iot.linkeddata.es/def/market#stockId
+:stockId rdf:type owl:DatatypeProperty ;
          rdfs:domain :Stock ;
          rdfs:range xsd:string ;
-         rdfs:label "stock i d" .
+         rdfs:label "stock id" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#stockQuantity

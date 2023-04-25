@@ -1,9 +1,9 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "market:Category" "market:Product" "market:Seller" "market:Stock" "market:Customer" ; /*classes style*/
-	"market:Category" -> "xsd:string" [ label = "market:categoryID" ];
-	"market:Seller" -> "xsd:string" [ label = "market:sellerID" ];
+node [shape = rectangle, color="orange"]; "market:Stock" "market:Seller" "market:Product" "market:Customer" "market:Category" ; /*classes style*/
+	"market:Category" -> "xsd:string" [ label = "market:categoryId" ];
+	"market:Seller" -> "xsd:string" [ label = "market:sellerId" ];
 	"market:Category" -> "xsd:string" [ label = "market:categoryType" ];
 	"market:Seller" -> "xsd:string" [ label = "market:sellerName" ];
 	"market:Customer" -> "xsd:string" [ label = "market:hasName" ];
@@ -11,12 +11,12 @@ node [shape = rectangle, color="orange"]; "market:Category" "market:Product" "ma
 	"market:Product" -> "market:Category" [ label = "market:hasCategory" ];
 	"market:Stock" -> "xsd:string" [ label = "market:stockQuantity" ];
 	"market:Product" -> "xsd:string" [ label = "market:productName" ];
+	"market:Product" -> "xsd:string" [ label = "market:productId" ];
 	"market:Customer" -> "market:Product" [ label = "market:buy" ];
-	"market:Product" -> "xsd:string" [ label = "market:productID" ];
 	"market:Product" -> "market:Stock" [ label = "market:hasQuantity" ];
 	"market:Seller" -> "market:Product" [ label = "market:sell" ];
-	"market:Stock" -> "xsd:string" [ label = "market:stockID" ];
+	"market:Stock" -> "xsd:string" [ label = "market:stockId" ];
 	"market:Category" -> "xsd:string" [ label = "market:categoryName" ];
-	"market:Customer" -> "xsd:string" [ label = "market:hasID" ];
+	"market:Customer" -> "xsd:string" [ label = "market:hasId" ];
 
 }

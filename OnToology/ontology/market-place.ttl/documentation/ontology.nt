@@ -64,11 +64,11 @@
 <https://auroral.iot.linkeddata.es/def/market#address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/market#address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
 # 
-# https://auroral.iot.linkeddata.es/def/market#categoryID
-<https://auroral.iot.linkeddata.es/def/market#categoryID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/market#categoryID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Category> .
-<https://auroral.iot.linkeddata.es/def/market#categoryID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://auroral.iot.linkeddata.es/def/market#categoryID> <http://www.w3.org/2000/01/rdf-schema#label> "category i d" .
+# https://auroral.iot.linkeddata.es/def/market#categoryId
+<https://auroral.iot.linkeddata.es/def/market#categoryId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://auroral.iot.linkeddata.es/def/market#categoryId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Category> .
+<https://auroral.iot.linkeddata.es/def/market#categoryId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://auroral.iot.linkeddata.es/def/market#categoryId> <http://www.w3.org/2000/01/rdf-schema#label> "category id" .
 # 
 # https://auroral.iot.linkeddata.es/def/market#categoryName
 <https://auroral.iot.linkeddata.es/def/market#categoryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -82,11 +82,11 @@
 <https://auroral.iot.linkeddata.es/def/market#categoryType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/market#categoryType> <http://www.w3.org/2000/01/rdf-schema#label> "category type" .
 # 
-# https://auroral.iot.linkeddata.es/def/market#hasID
-<https://auroral.iot.linkeddata.es/def/market#hasID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/market#hasID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Customer> .
-<https://auroral.iot.linkeddata.es/def/market#hasID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://auroral.iot.linkeddata.es/def/market#hasID> <http://www.w3.org/2000/01/rdf-schema#label> "has i d" .
+# https://auroral.iot.linkeddata.es/def/market#hasId
+<https://auroral.iot.linkeddata.es/def/market#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://auroral.iot.linkeddata.es/def/market#hasId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Customer> .
+<https://auroral.iot.linkeddata.es/def/market#hasId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://auroral.iot.linkeddata.es/def/market#hasId> <http://www.w3.org/2000/01/rdf-schema#label> "has id" .
 # 
 # https://auroral.iot.linkeddata.es/def/market#hasName
 <https://auroral.iot.linkeddata.es/def/market#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -94,11 +94,11 @@
 <https://auroral.iot.linkeddata.es/def/market#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/market#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has name" .
 # 
-# https://auroral.iot.linkeddata.es/def/market#productID
-<https://auroral.iot.linkeddata.es/def/market#productID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/market#productID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Product> .
-<https://auroral.iot.linkeddata.es/def/market#productID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://auroral.iot.linkeddata.es/def/market#productID> <http://www.w3.org/2000/01/rdf-schema#label> "product i d" .
+# https://auroral.iot.linkeddata.es/def/market#productId
+<https://auroral.iot.linkeddata.es/def/market#productId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://auroral.iot.linkeddata.es/def/market#productId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Product> .
+<https://auroral.iot.linkeddata.es/def/market#productId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://auroral.iot.linkeddata.es/def/market#productId> <http://www.w3.org/2000/01/rdf-schema#label> "product id" .
 # 
 # https://auroral.iot.linkeddata.es/def/market#productName
 <https://auroral.iot.linkeddata.es/def/market#productName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -106,11 +106,11 @@
 <https://auroral.iot.linkeddata.es/def/market#productName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/market#productName> <http://www.w3.org/2000/01/rdf-schema#label> "product name" .
 # 
-# https://auroral.iot.linkeddata.es/def/market#sellerID
-<https://auroral.iot.linkeddata.es/def/market#sellerID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/market#sellerID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Seller> .
-<https://auroral.iot.linkeddata.es/def/market#sellerID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://auroral.iot.linkeddata.es/def/market#sellerID> <http://www.w3.org/2000/01/rdf-schema#label> "seller i d" .
+# https://auroral.iot.linkeddata.es/def/market#sellerId
+<https://auroral.iot.linkeddata.es/def/market#sellerId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://auroral.iot.linkeddata.es/def/market#sellerId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Seller> .
+<https://auroral.iot.linkeddata.es/def/market#sellerId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://auroral.iot.linkeddata.es/def/market#sellerId> <http://www.w3.org/2000/01/rdf-schema#label> "seller id" .
 # 
 # https://auroral.iot.linkeddata.es/def/market#sellerName
 <https://auroral.iot.linkeddata.es/def/market#sellerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -118,11 +118,11 @@
 <https://auroral.iot.linkeddata.es/def/market#sellerName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://auroral.iot.linkeddata.es/def/market#sellerName> <http://www.w3.org/2000/01/rdf-schema#label> "seller name" .
 # 
-# https://auroral.iot.linkeddata.es/def/market#stockID
-<https://auroral.iot.linkeddata.es/def/market#stockID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://auroral.iot.linkeddata.es/def/market#stockID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Stock> .
-<https://auroral.iot.linkeddata.es/def/market#stockID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://auroral.iot.linkeddata.es/def/market#stockID> <http://www.w3.org/2000/01/rdf-schema#label> "stock i d" .
+# https://auroral.iot.linkeddata.es/def/market#stockId
+<https://auroral.iot.linkeddata.es/def/market#stockId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://auroral.iot.linkeddata.es/def/market#stockId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://auroral.iot.linkeddata.es/def/market#Stock> .
+<https://auroral.iot.linkeddata.es/def/market#stockId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://auroral.iot.linkeddata.es/def/market#stockId> <http://www.w3.org/2000/01/rdf-schema#label> "stock id" .
 # 
 # https://auroral.iot.linkeddata.es/def/market#stockQuantity
 <https://auroral.iot.linkeddata.es/def/market#stockQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
