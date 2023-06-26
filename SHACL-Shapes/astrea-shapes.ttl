@@ -1,20 +1,204 @@
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix :      <https://auroral.iot.linkeddata.es/def/market#> .
 @prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
 @prefix afn:   <http://jena.apache.org/ARQ/function#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d>
+        a            sh:PropertyShape ;
+        rdfs:label   "product id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "product id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :productId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee>
+        a               sh:NodeShape ;
+        rdfs:label      "Product" ;
+        sh:name         "Product" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> , <https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> , <https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> , <https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> ;
+        sh:targetClass  :Product .
+
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238>
+        a            sh:PropertyShape ;
+        rdfs:label   "seller id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "seller id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :sellerId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d>
+        a            sh:PropertyShape ;
+        rdfs:label   "stock quantity" ;
+        sh:datatype  xsd:string ;
+        sh:name      "stock quantity" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :stockQuantity ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1>
+        a            sh:PropertyShape ;
+        rdfs:label   "product name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "product name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :productName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045>
+        a            sh:PropertyShape ;
+        rdfs:label   "has name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "has name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc>
+        a            sh:PropertyShape ;
+        rdfs:label   "category name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "category name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :categoryName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944>
+        a            sh:PropertyShape ;
+        rdfs:label   "category id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "category id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :categoryId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd>
+        a               sh:NodeShape ;
+        rdfs:label      "Stock" ;
+        sh:name         "Stock" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> , <https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> ;
+        sh:targetClass  :Stock .
+
 <http://astrea.linkeddata.es/report>
         a       <https://w3id.org/def/astrea#ShapeReport> ;
+        <https://w3id.org/def/astrea#contains>
+                <https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> , <https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> , <https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> , <https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> , <https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> , <https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> , <https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> , <https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> , <https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> , <https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> , <https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> , <https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> , <https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> , <https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> , <https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> , <https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> , <https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> , <https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> , <https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> , <https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> , <https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> ;
         <https://w3id.org/def/astrea#generatedShapesFrom>
-                <https://astrea.linkeddata.es/report/0239753163> .
+                <https://astrea.linkeddata.es/report/01987628414> .
 
-<https://astrea.linkeddata.es/report/0239753163>
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c>
+        a               sh:NodeShape ;
+        rdfs:label      "Customer" ;
+        sh:name         "Customer" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> , <https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> , <https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> , <https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> ;
+        sh:targetClass  :Customer .
+
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9>
+        a               sh:NodeShape ;
+        rdfs:label      "Seller" ;
+        sh:name         "Seller" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> , <https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> , <https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> ;
+        sh:targetClass  :Seller .
+
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7>
+        a            sh:PropertyShape ;
+        rdfs:label   "seller name" ;
+        sh:datatype  xsd:string ;
+        sh:name      "seller name" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :sellerName ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b>
+        a            sh:PropertyShape ;
+        rdfs:label   "address" ;
+        sh:datatype  xsd:string ;
+        sh:name      "address" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :address ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a>
+        a               sh:NodeShape ;
+        rdfs:label      "Category" ;
+        sh:name         "Category" ;
+        sh:nodeKind     sh:IRI ;
+        sh:property     <https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> , <https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> , <https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> ;
+        sh:targetClass  :Category .
+
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197>
+        a            sh:PropertyShape ;
+        rdfs:label   "has id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "has id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :hasId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee>
+        a            sh:PropertyShape ;
+        rdfs:label   "has category" ;
+        sh:class     :Category ;
+        sh:name      "has category" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      :hasCategory .
+
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7>
+        a            sh:PropertyShape ;
+        rdfs:label   "stock id" ;
+        sh:datatype  xsd:string ;
+        sh:name      "stock id" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :stockId ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/report/01987628414>
         a       <https://w3id.org/def/astrea#ReportEntry> ;
         <https://w3id.org/def/astrea#message>
-                "Provided content belongs to no ontology (maybe check that it contains the mandatory statement rdf:type owl:Ontology)" ;
+                "Shapes generated with no errors" ;
         <https://w3id.org/def/astrea#source>
-                "https://github.com/oeg-upm/auroral-marketplace-ontology" ;
+                "https://auroral.iot.linkeddata.es/def/marketplace/ontology.ttl" ;
         <https://w3id.org/def/astrea#statusCode>
-                "400"^^xsd:int .
+                "200"^^xsd:int .
+
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508>
+        a            sh:PropertyShape ;
+        rdfs:label   "has quantity" ;
+        sh:class     :Stock ;
+        sh:name      "has quantity" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      :hasQuantity .
+
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa>
+        a            sh:PropertyShape ;
+        rdfs:label   "category type" ;
+        sh:datatype  xsd:string ;
+        sh:name      "category type" ;
+        sh:nodeKind  sh:Literal ;
+        sh:path      :categoryType ;
+        sh:pattern   ".*" .
+
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c>
+        a            sh:PropertyShape ;
+        rdfs:label   "buy" ;
+        sh:class     :Product ;
+        sh:name      "buy" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      :buy .
+
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb>
+        a            sh:PropertyShape ;
+        rdfs:label   "sell" ;
+        sh:class     :Product ;
+        sh:name      "sell" ;
+        sh:nodeKind  sh:BlankNodeOrIRI ;
+        sh:path      :sell .
