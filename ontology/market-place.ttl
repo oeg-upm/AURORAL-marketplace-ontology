@@ -12,7 +12,8 @@
 
 <https://auroral.iot.linkeddata.es/def/market#> rdf:type owl:Ontology ;
                                                  dc:creator "Ahlem Rhayem" ;
-                                                 dc:description "Ontology code created by Chowlk" .
+                                                 dc:description "This ontology model the market-place information for AURORAL" ;
+                                                 dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> .
 
 #################################################################
 #    Annotation properties
@@ -24,6 +25,10 @@ dc:creator rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/dc/elements/1.1/description
 dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dcterms:license rdf:type owl:AnnotationProperty .
 
 
 #################################################################
