@@ -1,0 +1,109 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Category1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Category"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#categoryName" : [ {
+    "@value" : "Biomass"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe" : [ {
+    "@value" : "1"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#categroyId" : [ {
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Consumer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Consumer1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Consumer"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#buy" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Product1"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#hasId" : [ {
+    "@value" : "3"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#name" : [ {
+    "@value" : "Juan"
+  } ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Product1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Product"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#hasCategory" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Category1"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#hasId" : [ {
+    "@value" : "23467"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#hasName" : [ {
+    "@value" : "Briquettes"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#hasQuantity" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Quantity1"
+  } ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Quantity1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Stock"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#stockId" : [ {
+    "@value" : "12"
+  } ],
+  "market:https://auroral.iot.linkeddata.es/def/market#stockQuantity" : [ {
+    "@value" : "156 kg"
+  } ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Stock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#buy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categoryName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categroyId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#stockId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "market:https://auroral.iot.linkeddata.es/def/market#stockQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

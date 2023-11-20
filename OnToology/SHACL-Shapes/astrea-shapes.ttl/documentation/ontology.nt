@@ -1,0 +1,325 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#name
+<http://www.w3.org/ns/shacl#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#contains
+<https://w3id.org/def/astrea#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#generatedShapesFrom
+<https://w3id.org/def/astrea#generatedShapesFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#message
+<https://w3id.org/def/astrea#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#source
+<https://w3id.org/def/astrea#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/def/astrea#statusCode
+<https://w3id.org/def/astrea#statusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/def/astrea#ReportEntry
+<https://w3id.org/def/astrea#ReportEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/def/astrea#ShapeReport
+<https://w3id.org/def/astrea#ShapeReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://astrea.linkeddata.es/report
+<http://astrea.linkeddata.es/report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://astrea.linkeddata.es/report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/astrea#ShapeReport> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> .
+<http://astrea.linkeddata.es/report> <https://w3id.org/def/astrea#generatedShapesFrom> <https://astrea.linkeddata.es/report/01987628414> .
+# 
+# https://astrea.linkeddata.es/report/01987628414
+<https://astrea.linkeddata.es/report/01987628414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/report/01987628414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/astrea#ReportEntry> .
+<https://astrea.linkeddata.es/report/01987628414> <https://w3id.org/def/astrea#message> "Shapes generated with no errors" .
+<https://astrea.linkeddata.es/report/01987628414> <https://w3id.org/def/astrea#source> "https://auroral.iot.linkeddata.es/def/marketplace/ontology.ttl" .
+<https://astrea.linkeddata.es/report/01987628414> <https://w3id.org/def/astrea#statusCode> "200"^^<http://www.w3.org/2001/XMLSchema#int> .
+# 
+# https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/2000/01/rdf-schema#label> "product name" .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/ns/shacl#name> "product name" .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#productName> .
+<https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/2000/01/rdf-schema#label> "Seller" .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#name> "Seller" .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> .
+<https://astrea.linkeddata.es/shapes#bccc021b7c22df2ecce9cc82f91991b9> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/market#Seller> .
+# 
+# https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/2000/01/rdf-schema#label> "has category" .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/market#Category> .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/ns/shacl#name> "has category" .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#hasCategory> .
+# 
+# https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/2000/01/rdf-schema#label> "buy" .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/market#Product> .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/ns/shacl#name> "buy" .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#buy> .
+# 
+# https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/ns/shacl#name> "address" .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#address> .
+<https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/2000/01/rdf-schema#label> "has quantity" .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/market#Stock> .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/ns/shacl#name> "has quantity" .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#hasQuantity> .
+# 
+# https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/2000/01/rdf-schema#label> "category name" .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/ns/shacl#name> "category name" .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#categoryName> .
+<https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/2000/01/rdf-schema#label> "sell" .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/ns/shacl#class> <https://auroral.iot.linkeddata.es/def/market#Product> .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/ns/shacl#name> "sell" .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> .
+<https://astrea.linkeddata.es/shapes#f58c7f96e5e3b26dc6536b51f71aa1fb> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#sell> .
+# 
+# https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/2000/01/rdf-schema#label> "category id" .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/ns/shacl#name> "category id" .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#categoryId> .
+<https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/2000/01/rdf-schema#label> "stock quantity" .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/ns/shacl#name> "stock quantity" .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#stockQuantity> .
+<https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/2000/01/rdf-schema#label> "seller name" .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/ns/shacl#name> "seller name" .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#sellerName> .
+<https://astrea.linkeddata.es/shapes#29d9b0ec2b6c6b51d6759b1991bae2b7> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/2000/01/rdf-schema#label> "Customer" .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#name> "Customer" .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#bee8c22ac4f7598e9c19cef302f01e0c> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#e4eb4999f4a6dfddae4ec09016cff08b> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> .
+<https://astrea.linkeddata.es/shapes#3b0f143c2f635b5d686784580b00823c> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/market#Customer> .
+# 
+# https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/2000/01/rdf-schema#label> "product id" .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/ns/shacl#name> "product id" .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#productId> .
+<https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/2000/01/rdf-schema#label> "category type" .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/ns/shacl#name> "category type" .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#categoryType> .
+<https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/2000/01/rdf-schema#label> "seller id" .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/ns/shacl#name> "seller id" .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#sellerId> .
+<https://astrea.linkeddata.es/shapes#6781301db92d9413e2e58b6ed6591238> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/2000/01/rdf-schema#label> "Product" .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#name> "Product" .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#a1007bd030bfb6c03e7d48ed474171a1> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#bdfe8af6ffb1e1abd2d771108bf47fee> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#e5486e143581315837286a62def04508> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#3de5ead1e8dcf91decd4146115d6e52d> .
+<https://astrea.linkeddata.es/shapes#76adb26582a383120ab8dd38d4a257ee> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/market#Product> .
+# 
+# https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/2000/01/rdf-schema#label> "Stock" .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/ns/shacl#name> "Stock" .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#106904f43d91a8579e2590da7bca8c4d> .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> .
+<https://astrea.linkeddata.es/shapes#8a7fe6e8b6a1516dc40ae16a310fb8dd> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/market#Stock> .
+# 
+# https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/2000/01/rdf-schema#label> "stock id" .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/ns/shacl#name> "stock id" .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#stockId> .
+<https://astrea.linkeddata.es/shapes#8ff151b689b01b2a7f6468864523ccf7> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/2000/01/rdf-schema#label> "has name" .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/ns/shacl#name> "has name" .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#hasName> .
+<https://astrea.linkeddata.es/shapes#9a44223f0dccada3d0cc07aaddfce045> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#PropertyShape> .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/2000/01/rdf-schema#label> "has id" .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/ns/shacl#name> "has id" .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/ns/shacl#path> <https://auroral.iot.linkeddata.es/def/market#hasId> .
+<https://astrea.linkeddata.es/shapes#9d1449c6ad4bfa8c130feb3653858197> <http://www.w3.org/ns/shacl#pattern> ".*" .
+# 
+# https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#name> "Category" .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#e7039ee7325ebff179b25f429b4b4ebc> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#015fde01b27472cf22515ee8cb937944> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#5413dfac0f4f77765d2661a7128537aa> .
+<https://astrea.linkeddata.es/shapes#9735416d012d2e1a969bf351e0b4663a> <http://www.w3.org/ns/shacl#targetClass> <https://auroral.iot.linkeddata.es/def/market#Category> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

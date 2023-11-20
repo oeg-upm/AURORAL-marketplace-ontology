@@ -1,0 +1,49 @@
+{
+  "@context" : {
+    "hasQuantity" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasQuantity"
+    },
+    "Category" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Category"
+    },
+    "Product" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Product"
+    },
+    "hasName" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasName"
+    },
+    "Consumer" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Consumer"
+    },
+    "stockId" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#stockId"
+    },
+    "Stock" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#Stock"
+    },
+    "name" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#name"
+    },
+    "categoryTYpe" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe"
+    },
+    "buy" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#buy"
+    },
+    "hasId" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasId"
+    },
+    "hasCategory" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#hasCategory"
+    },
+    "stockQuantity" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#stockQuantity"
+    },
+    "categroyId" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categroyId"
+    },
+    "categoryName" : {
+      "@id" : "market:https://auroral.iot.linkeddata.es/def/market#categoryName"
+    }
+  }
+}

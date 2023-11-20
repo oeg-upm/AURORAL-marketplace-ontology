@@ -2,6 +2,7 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "market:Stock" "market:Seller" "market:Product" "market:Customer" "market:Category" ; /*classes style*/
+	"market:" -> "http://purl.org/NET/rdflicense/cc-by4.0" [ label = "dcterms:license" ];
 	"market:Category" -> "xsd:string" [ label = "market:categoryId" ];
 	"market:Seller" -> "xsd:string" [ label = "market:sellerId" ];
 	"market:Category" -> "xsd:string" [ label = "market:categoryType" ];

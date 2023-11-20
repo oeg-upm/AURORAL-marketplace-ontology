@@ -1,6 +1,7 @@
 <https://auroral.iot.linkeddata.es/def/market#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://auroral.iot.linkeddata.es/def/market#> <http://purl.org/dc/elements/1.1/creator> "Ahlem Rhayem" .
-<https://auroral.iot.linkeddata.es/def/market#> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+<https://auroral.iot.linkeddata.es/def/market#> <http://purl.org/dc/elements/1.1/description> "This ontology model the market-place information for AURORAL" .
+<https://auroral.iot.linkeddata.es/def/market#> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
 # 
 # 
 # #################################################################
@@ -15,6 +16,9 @@
 # 
 # http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
