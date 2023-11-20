@@ -4,6 +4,9 @@
       "@id" : "https://auroral.iot.linkeddata.es/def/market#sellerId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
     "hasQuantity" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#hasQuantity",
       "@type" : "@id"

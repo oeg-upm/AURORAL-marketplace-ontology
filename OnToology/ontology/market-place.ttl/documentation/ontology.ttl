@@ -8,7 +8,8 @@
 
 <https://auroral.iot.linkeddata.es/def/market#> rdf:type owl:Ontology ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Ahlem Rhayem" ;
-                                                 <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+                                                 <http://purl.org/dc/elements/1.1/description> "This ontology model the market-place information for AURORAL" ;
+                                                 <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
 
 #################################################################
 #    Annotation properties
@@ -20,6 +21,10 @@
 
 ###  http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
 
 
 #################################################################

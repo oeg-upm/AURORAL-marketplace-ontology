@@ -1,0 +1,115 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  market:https://auroral.iot.linkeddata.es/def/market#buy
+<market:https://auroral.iot.linkeddata.es/def/market#buy> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#categoryName
+<market:https://auroral.iot.linkeddata.es/def/market#categoryName> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe
+<market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#categroyId
+<market:https://auroral.iot.linkeddata.es/def/market#categroyId> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#hasCategory
+<market:https://auroral.iot.linkeddata.es/def/market#hasCategory> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#hasId
+<market:https://auroral.iot.linkeddata.es/def/market#hasId> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#hasName
+<market:https://auroral.iot.linkeddata.es/def/market#hasName> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#hasQuantity
+<market:https://auroral.iot.linkeddata.es/def/market#hasQuantity> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#name
+<market:https://auroral.iot.linkeddata.es/def/market#name> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#stockId
+<market:https://auroral.iot.linkeddata.es/def/market#stockId> rdf:type owl:AnnotationProperty .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#stockQuantity
+<market:https://auroral.iot.linkeddata.es/def/market#stockQuantity> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Category
+<market:https://auroral.iot.linkeddata.es/def/market#Category> rdf:type owl:Class .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Consumer
+<market:https://auroral.iot.linkeddata.es/def/market#Consumer> rdf:type owl:Class .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Product
+<market:https://auroral.iot.linkeddata.es/def/market#Product> rdf:type owl:Class .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Stock
+<market:https://auroral.iot.linkeddata.es/def/market#Stock> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Category1
+<market:https://auroral.iot.linkeddata.es/def/market#Category1> rdf:type owl:NamedIndividual ,
+                                                                         <market:https://auroral.iot.linkeddata.es/def/market#Category> ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#categoryName> "Biomass" ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe> "1" ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#categroyId> "4" .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Consumer1
+<market:https://auroral.iot.linkeddata.es/def/market#Consumer1> rdf:type owl:NamedIndividual ,
+                                                                         <market:https://auroral.iot.linkeddata.es/def/market#Consumer> ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#buy> <market:https://auroral.iot.linkeddata.es/def/market#Product1> ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#hasId> "3" ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#name> "Juan" .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Product1
+<market:https://auroral.iot.linkeddata.es/def/market#Product1> rdf:type owl:NamedIndividual ,
+                                                                        <market:https://auroral.iot.linkeddata.es/def/market#Product> ;
+                                                               <market:https://auroral.iot.linkeddata.es/def/market#hasCategory> <market:https://auroral.iot.linkeddata.es/def/market#Category1> ;
+                                                               <market:https://auroral.iot.linkeddata.es/def/market#hasId> "23467" ;
+                                                               <market:https://auroral.iot.linkeddata.es/def/market#hasName> "Briquettes" ;
+                                                               <market:https://auroral.iot.linkeddata.es/def/market#hasQuantity> <market:https://auroral.iot.linkeddata.es/def/market#Quantity1> .
+
+
+###  market:https://auroral.iot.linkeddata.es/def/market#Quantity1
+<market:https://auroral.iot.linkeddata.es/def/market#Quantity1> rdf:type owl:NamedIndividual ,
+                                                                         <market:https://auroral.iot.linkeddata.es/def/market#Stock> ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#stockId> "12" ;
+                                                                <market:https://auroral.iot.linkeddata.es/def/market#stockQuantity> "156 kg" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:market="market:https://auroral.iot.linkeddata.es/def/market#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#buy -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#buy"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#categoryName -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#categoryName"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#categoryTYpe"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#categroyId -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#categroyId"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#hasCategory -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#hasCategory"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#hasId -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#hasId"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#hasName -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#hasName"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#hasQuantity -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#hasQuantity"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#name -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#name"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#stockId -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#stockId"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#stockQuantity -->
+
+
+    <AnnotationProperty rdf:about="market:https://auroral.iot.linkeddata.es/def/market#stockQuantity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Category -->
+
+
+    <Class rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Category"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Consumer -->
+
+
+    <Class rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Consumer"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Product -->
+
+
+    <Class rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Product"/>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Stock -->
+
+
+    <Class rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Stock"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Category1 -->
+
+
+    <NamedIndividual rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Category1">
+        <rdf:type rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Category"/>
+        <market:categoryName>Biomass</market:categoryName>
+        <market:categoryTYpe>1</market:categoryTYpe>
+        <market:categroyId>4</market:categroyId>
+    </NamedIndividual>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Consumer1 -->
+
+
+    <NamedIndividual rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Consumer1">
+        <rdf:type rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Consumer"/>
+        <market:buy rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Product1"/>
+        <market:hasId>3</market:hasId>
+        <market:name>Juan</market:name>
+    </NamedIndividual>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Product1 -->
+
+
+    <NamedIndividual rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Product1">
+        <rdf:type rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Product"/>
+        <market:hasCategory rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Category1"/>
+        <market:hasId>23467</market:hasId>
+        <market:hasName>Briquettes</market:hasName>
+        <market:hasQuantity rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Quantity1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- market:https://auroral.iot.linkeddata.es/def/market#Quantity1 -->
+
+
+    <NamedIndividual rdf:about="market:https://auroral.iot.linkeddata.es/def/market#Quantity1">
+        <rdf:type rdf:resource="market:https://auroral.iot.linkeddata.es/def/market#Stock"/>
+        <market:stockId>12</market:stockId>
+        <market:stockQuantity>156 kg</market:stockQuantity>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"ns1:Product1" -> "ns1:Category1" [ label = "ns1:hasCategory" ];
+	"ns1:Product1" -> "ns1:Quantity1" [ label = "ns1:hasQuantity" ];
+	"ns1:Consumer1" -> "ns1:Product1" [ label = "ns1:buy" ];
+
+}
