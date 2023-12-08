@@ -11,7 +11,11 @@
 @base <https://auroral.iot.linkeddata.es/def/market#> .
 
 <https://auroral.iot.linkeddata.es/def/market#> rdf:type owl:Ontology ;
-                                                 dc:creator "Ahlem Rhayem" ;
+                                                 dc:creator "Ahlem Rhayem" ,
+                                                            "Andrea Cimmino" ,
+                                                            "Juan Cano" ,
+                                                            "María Poveda-Villalón" ,
+                                                            "Raúl Garcia-Castro" ;
                                                  dc:description "This ontology model the market-place information for AURORAL" ;
                                                  dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> .
 
@@ -155,6 +159,11 @@ market:stockQuantity rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
+###  https://auroral.iot.linkeddata.es/def/core#User
+<https://auroral.iot.linkeddata.es/def/core#User> rdf:type owl:Class ;
+                                                  rdfs:label "User" .
+
+
 ###  https://auroral.iot.linkeddata.es/def/market#Category
 market:Category rdf:type owl:Class ;
                 rdfs:label "Category" .
@@ -162,6 +171,7 @@ market:Category rdf:type owl:Class ;
 
 ###  https://auroral.iot.linkeddata.es/def/market#Customer
 market:Customer rdf:type owl:Class ;
+                rdfs:subClassOf <https://auroral.iot.linkeddata.es/def/core#User> ;
                 rdfs:label "Customer" .
 
 
@@ -172,6 +182,7 @@ market:Product rdf:type owl:Class ;
 
 ###  https://auroral.iot.linkeddata.es/def/market#Seller
 market:Seller rdf:type owl:Class ;
+              rdfs:subClassOf <https://auroral.iot.linkeddata.es/def/core#User> ;
               rdfs:label "Seller" .
 
 
