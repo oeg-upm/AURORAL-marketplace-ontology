@@ -43,6 +43,7 @@ dcterms:license rdf:type owl:AnnotationProperty .
 market:buy rdf:type owl:ObjectProperty ;
            rdfs:domain market:Customer ;
            rdfs:range market:Product ;
+           rdfs:comment "A relationship between the consumer and the product he buys" ;
            rdfs:label "buy" .
 
 
@@ -50,6 +51,7 @@ market:buy rdf:type owl:ObjectProperty ;
 market:hasCategory rdf:type owl:ObjectProperty ;
                    rdfs:domain market:Product ;
                    rdfs:range market:Category ;
+                   rdfs:comment "A relationship between the product and its category" ;
                    rdfs:label "has category" .
 
 
@@ -57,6 +59,7 @@ market:hasCategory rdf:type owl:ObjectProperty ;
 market:hasQuantity rdf:type owl:ObjectProperty ;
                    rdfs:domain market:Product ;
                    rdfs:range market:Stock ;
+                   rdfs:comment "A relationship between the product and its quantity in the stock" ;
                    rdfs:label "has quantity" .
 
 
@@ -64,6 +67,7 @@ market:hasQuantity rdf:type owl:ObjectProperty ;
 market:sell rdf:type owl:ObjectProperty ;
             rdfs:domain market:Seller ;
             rdfs:range market:Product ;
+            rdfs:comment "A relationship between product and salespeople" ;
             rdfs:label "sell" .
 
 
@@ -75,6 +79,7 @@ market:sell rdf:type owl:ObjectProperty ;
 market:address rdf:type owl:DatatypeProperty ;
                rdfs:domain market:Customer ;
                rdfs:range xsd:string ;
+               rdfs:comment "The address details of the consumer" ;
                rdfs:label "address" .
 
 
@@ -82,6 +87,7 @@ market:address rdf:type owl:DatatypeProperty ;
 market:categoryId rdf:type owl:DatatypeProperty ;
                   rdfs:domain market:Category ;
                   rdfs:range xsd:string ;
+                  rdfs:comment "The identifier of the product" ;
                   rdfs:label "category id" .
 
 
@@ -89,6 +95,7 @@ market:categoryId rdf:type owl:DatatypeProperty ;
 market:categoryName rdf:type owl:DatatypeProperty ;
                     rdfs:domain market:Category ;
                     rdfs:range xsd:string ;
+                    rdfs:comment "The name of the product category" ;
                     rdfs:label "category name" .
 
 
@@ -96,6 +103,7 @@ market:categoryName rdf:type owl:DatatypeProperty ;
 market:categoryType rdf:type owl:DatatypeProperty ;
                     rdfs:domain market:Category ;
                     rdfs:range xsd:string ;
+                    rdfs:comment "The category type of the product" ;
                     rdfs:label "category type" .
 
 
@@ -103,6 +111,7 @@ market:categoryType rdf:type owl:DatatypeProperty ;
 market:hasId rdf:type owl:DatatypeProperty ;
              rdfs:domain market:Customer ;
              rdfs:range xsd:string ;
+             rdfs:comment "The identifier of the customer" ;
              rdfs:label "has id" .
 
 
@@ -110,6 +119,7 @@ market:hasId rdf:type owl:DatatypeProperty ;
 market:hasName rdf:type owl:DatatypeProperty ;
                rdfs:domain market:Customer ;
                rdfs:range xsd:string ;
+               rdfs:comment "The name of the customer" ;
                rdfs:label "has name" .
 
 
@@ -117,6 +127,7 @@ market:hasName rdf:type owl:DatatypeProperty ;
 market:productId rdf:type owl:DatatypeProperty ;
                  rdfs:domain market:Product ;
                  rdfs:range xsd:string ;
+                 rdfs:comment "The identifier of the product" ;
                  rdfs:label "product id" .
 
 
@@ -124,6 +135,7 @@ market:productId rdf:type owl:DatatypeProperty ;
 market:productName rdf:type owl:DatatypeProperty ;
                    rdfs:domain market:Product ;
                    rdfs:range xsd:string ;
+                   rdfs:comment "The product name" ;
                    rdfs:label "product name" .
 
 
@@ -131,6 +143,7 @@ market:productName rdf:type owl:DatatypeProperty ;
 market:sellerId rdf:type owl:DatatypeProperty ;
                 rdfs:domain market:Seller ;
                 rdfs:range xsd:string ;
+                rdfs:comment "The identifier of the seller" ;
                 rdfs:label "seller id" .
 
 
@@ -138,6 +151,7 @@ market:sellerId rdf:type owl:DatatypeProperty ;
 market:sellerName rdf:type owl:DatatypeProperty ;
                   rdfs:domain market:Seller ;
                   rdfs:range xsd:string ;
+                  rdfs:comment "The name of the seller" ;
                   rdfs:label "seller name" .
 
 
@@ -145,6 +159,7 @@ market:sellerName rdf:type owl:DatatypeProperty ;
 market:stockId rdf:type owl:DatatypeProperty ;
                rdfs:domain market:Stock ;
                rdfs:range xsd:string ;
+               rdfs:comment "The identifier of the stock" ;
                rdfs:label "stock id" .
 
 
@@ -152,6 +167,7 @@ market:stockId rdf:type owl:DatatypeProperty ;
 market:stockQuantity rdf:type owl:DatatypeProperty ;
                      rdfs:domain market:Stock ;
                      rdfs:range xsd:string ;
+                     rdfs:comment "The quantity of the stock" ;
                      rdfs:label "stock quantity" .
 
 
@@ -161,33 +177,39 @@ market:stockQuantity rdf:type owl:DatatypeProperty ;
 
 ###  https://auroral.iot.linkeddata.es/def/core#User
 <https://auroral.iot.linkeddata.es/def/core#User> rdf:type owl:Class ;
+                                                  rdfs:comment "Users responsible for selling or consuming a product" ;
                                                   rdfs:label "User" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#Category
 market:Category rdf:type owl:Class ;
+                rdfs:comment "The category of the product" ;
                 rdfs:label "Category" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#Customer
 market:Customer rdf:type owl:Class ;
                 rdfs:subClassOf <https://auroral.iot.linkeddata.es/def/core#User> ;
+                rdfs:comment "The users that consumes a product" ;
                 rdfs:label "Customer" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#Product
 market:Product rdf:type owl:Class ;
+               rdfs:comment "It is the item that will be sold" ;
                rdfs:label "Product" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#Seller
 market:Seller rdf:type owl:Class ;
               rdfs:subClassOf <https://auroral.iot.linkeddata.es/def/core#User> ;
+              rdfs:comment "The users that sell a product" ;
               rdfs:label "Seller" .
 
 
 ###  https://auroral.iot.linkeddata.es/def/market#Stock
 market:Stock rdf:type owl:Class ;
+             rdfs:comment "The items available for sale in a store" ;
              rdfs:label "Stock" .
 
 
