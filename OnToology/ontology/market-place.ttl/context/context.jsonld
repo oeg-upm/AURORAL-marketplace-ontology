@@ -42,6 +42,9 @@
       "@id" : "https://auroral.iot.linkeddata.es/def/market#productId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "User" : {
+      "@id" : "https://auroral.iot.linkeddata.es/def/core#User"
+    },
     "stockId" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#stockId",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -79,6 +82,9 @@
     "stockQuantity" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#stockQuantity",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "categoryName" : {
       "@id" : "https://auroral.iot.linkeddata.es/def/market#categoryName",
