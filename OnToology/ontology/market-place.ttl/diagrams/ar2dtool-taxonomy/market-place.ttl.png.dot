@@ -1,5 +1,8 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
+node [shape = rectangle, color="black"]; "market:Seller" "market:Customer" "https://auroral.iot.linkeddata.es/def/core#User" ; /*classes style*/
+	"market:Seller" -> "https://auroral.iot.linkeddata.es/def/core#User" [ label = "rdfs:subClassOf" ];
+	"market:Customer" -> "https://auroral.iot.linkeddata.es/def/core#User" [ label = "rdfs:subClassOf" ];
 
 }
